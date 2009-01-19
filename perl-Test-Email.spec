@@ -15,6 +15,8 @@ Group:		Development/Languages/Perl
 Source0:	http://search.cpan.org/CPAN/authors/id/J/JA/JAMES/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	be2f80d2dbdd2f9c3329237402ebcf14
 URL:		http://search.cpan.org/dist/Test-Email/
+BuildRequires:	perl-MIME-tools
+BuildRequires:	perl-Mail-Sendmail
 BuildRequires:	perl-devel >= 1:5.8.7
 %if %{with tests}
 %endif
