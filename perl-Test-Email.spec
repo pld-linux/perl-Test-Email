@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests # do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Test
 %define		pnam	Email
 Summary:	Test::Email Perl module - Test Email Contents
