@@ -7,7 +7,7 @@
 Summary:	Test::Email Perl module - Test Email Contents
 Name:		perl-Test-Email
 Version:	0.07
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
